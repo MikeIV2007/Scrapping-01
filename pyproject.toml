@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "scraping"
+version = "0.1.0"
+description = "API and WEB scraping"
+authors = ["MikeIV2007 <130536460+MikeIV2007@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+tabulate = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
